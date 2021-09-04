@@ -14,7 +14,7 @@ jobs:
       - script: |
           echo HELLO FROM Linux
           bash install.sh
-          validORF ATGATGAAAAAAAAATAATTTATGCCCCCCCCCTAA
+          codingorf ATGATGAAAAAAAAATAATTTATGCCCCCCCCCTAA
           echo $?
               
 
@@ -25,7 +25,7 @@ jobs:
       - script: |
             echo HELLO FROM MacOS
             bash install.sh
-            validORF ATGATGAAAAAAAAATAATTTATGCCCCCCCCCTAA
+            codingorf ATGATGAAAAAAAAATAATTTATGCCCCCCCCCTAA
             echo $?
               
              
@@ -36,5 +36,5 @@ jobs:
       - script: |
             echo HELLO FROM Windows
             bash install.sh
-            validORF ATGATGAAAAAAAAATAATTTATGCCCCCCCCCTAA
+            codingorf ATGATGAAAAAAAAATAATTTATGCCCCCCCCCTAA
             echo $?
