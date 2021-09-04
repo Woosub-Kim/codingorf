@@ -41,8 +41,9 @@ def main():
     input = sys.argv[1]
     if input in ('-h', '--help'):
         usage()
-    orfParser = OrfParser(input)
-    orfParser.getCodingorf()
+    else:
+        orfParser = OrfParser(input)
+        orfParser.getCodingorf()
     
 
 if __name__ == '__main__':
