@@ -35,6 +35,7 @@ jobs:
   steps:
       - script: |
             echo HELLO FROM Windows
+            pip install biopython --upgrade
             bash install.sh
             codingorf ATGATGAAAAAAAAATAATTTATGCCCCCCCCCTAA
             echo $?
