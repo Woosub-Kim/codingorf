@@ -1,3 +1,3 @@
-echo "Installation of codingorf"
+echo "[info] Installation of codingorf"
 pip3 install -e .
-echo "Congraturations! Installation of codingorf is finished."
+echo "[info] Congraturations! Installation of codingorf is finished."
